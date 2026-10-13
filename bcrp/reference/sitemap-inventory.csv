@@ -1,0 +1,53 @@
+page,url,category,parent_page,content_capture_status,implementation_status
+Home,https://www.bcrp.ac.in/,Home,,captured,visually-complete
+About BCRP,https://www.bcrp.ac.in/about,About,Home,captured,visually-complete
+About BCREC Society,https://www.bcrp.ac.in/about-bcrec-society,About,About,captured,visually-complete
+Vision Mission Quality,https://www.bcrp.ac.in/vision-mission-quality,About,About,captured,visually-complete
+Pledge,https://www.bcrp.ac.in/pledge,About,About,captured,visually-complete
+Desk General Secretary,https://www.bcrp.ac.in/desk-general-secretary,About,About,captured,visually-complete
+Desk Principal,https://www.bcrp.ac.in/desk-principal,About,About,captured,visually-complete
+Approval,https://www.bcrp.ac.in/approval,Credentials,Home,captured,visually-complete
+Affiliation,https://www.bcrp.ac.in/affiliation,Credentials,Home,captured,visually-complete
+NPTEL Local Chapter,https://www.bcrp.ac.in/nptel-local-chapter,Credentials,Home,captured,visually-complete
+IE Student Chapter,https://www.bcrp.ac.in/ie-student-chapter,Credentials,Home,captured,visually-complete
+MoU,https://www.bcrp.ac.in/mou,Credentials,Home,captured,visually-complete
+Departments,https://www.bcrp.ac.in/departments,Academics,Home,captured,visually-complete
+Computer Science & Technology,https://www.bcrp.ac.in/dept-cst,Academics,Departments,captured,visually-complete
+Electronics & Communication,https://www.bcrp.ac.in/dept-ece,Academics,Departments,captured,visually-complete
+Electrical Engineering,https://www.bcrp.ac.in/dept-ee,Academics,Departments,captured,visually-complete
+Mechanical Engineering,https://www.bcrp.ac.in/dept-me,Academics,Departments,captured,visually-complete
+Civil Engineering,https://www.bcrp.ac.in/dept-ce,Academics,Departments,captured,visually-complete
+Applied Science,https://www.bcrp.ac.in/dept-applied-science,Academics,Departments,captured,visually-complete
+Faculty,https://www.bcrp.ac.in/faculty,Academics,Departments,captured,visually-complete
+Admission Procedure,https://www.bcrp.ac.in/admission,Admission,Home,captured,visually-complete
+Fee Structure,https://www.bcrp.ac.in/fee-structure,Admission,Admission,captured,visually-complete
+Eligibility Criteria,https://www.bcrp.ac.in/eligibility-criteria,Admission,Admission,captured,visually-complete
+Mode of Payment,https://www.bcrp.ac.in/mode-of-payment,Admission,Admission,captured,visually-complete
+Refund Policy,https://www.bcrp.ac.in/refund-policy,Admission,Admission,captured,visually-complete
+Apply Now Enquiry,https://www.bcrp.ac.in/contact,Admission,Admission,captured,visually-complete
+Laboratories,https://www.bcrp.ac.in/laboratories,Infrastructure,Home,captured,visually-complete
+Seminar Hall,https://www.bcrp.ac.in/seminar-hall,Infrastructure,Home,captured,visually-complete
+Language Lab,https://www.bcrp.ac.in/language-lab,Infrastructure,Home,captured,visually-complete
+Gymnasium,https://www.bcrp.ac.in/gymnasium,Infrastructure,Home,captured,visually-complete
+Student Club,https://www.bcrp.ac.in/student-club,Infrastructure,Home,captured,visually-complete
+Central Library,https://www.bcrp.ac.in/central-library,Infrastructure,Home,captured,visually-complete
+Smart Class Room,https://www.bcrp.ac.in/smart-class-room,Infrastructure,Home,captured,visually-complete
+Wi-Fi Campus,https://www.bcrp.ac.in/wifi-campus,Infrastructure,Home,captured,visually-complete
+Sports,https://www.bcrp.ac.in/sports,Infrastructure,Home,captured,visually-complete
+Cafeteria,https://www.bcrp.ac.in/cafeteria,Infrastructure,Home,captured,visually-complete
+Guest House,https://www.bcrp.ac.in/guest-house,Infrastructure,Home,captured,visually-complete
+Hostels,https://www.bcrp.ac.in/hostels,Infrastructure,Home,captured,visually-complete
+Computer Centre,https://www.bcrp.ac.in/computer-centre,Infrastructure,Home,captured,visually-complete
+Medical Unit,https://www.bcrp.ac.in/medical-unit,Infrastructure,Home,captured,visually-complete
+Safety & Security,https://www.bcrp.ac.in/safety-security,Infrastructure,Home,captured,visually-complete
+Common Room,https://www.bcrp.ac.in/common-room,Infrastructure,Home,captured,visually-complete
+Other Facilities,https://www.bcrp.ac.in/other-facilities,Infrastructure,Home,captured,visually-complete
+Training & Placement,https://www.bcrp.ac.in/placements,Placement,Home,captured,visually-complete
+Placement Status,https://www.bcrp.ac.in/placement-status,Placement,Training & Placement,captured,visually-complete
+Scholarship,https://www.bcrp.ac.in/scholarship,Scholarship,Home,captured,visually-complete
+Achievements,https://www.bcrp.ac.in/achievements,Achievement,Home,captured,visually-complete
+Notices,https://www.bcrp.ac.in/notice,Notice,Home,captured,visually-complete
+Results,https://www.bcrp.ac.in/results,Student portal,Home,captured,visually-complete
+Student Life,https://www.bcrp.ac.in/student-life,Campus life,Home,captured,visually-complete
+Gallery,https://www.bcrp.ac.in/gallery,Gallery,Home,captured,visually-complete
+Login,https://www.bcrp.ac.in/login,Secure portal,Home,captured,visually-complete

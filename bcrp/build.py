@@ -1,4 +1,9 @@
-"""BCRP site generator — shared Navbar/Footer/Loader components. Run: python3 build.py"""
+"""BCRP site generator — shared Navbar/Footer/Loader components. Run: python build.py from the bcrp directory or repo root."""
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+PAGES_DIR = BASE_DIR / "pages"
+PAGES_DIR.mkdir(exist_ok=True)
 LOGO='''<svg viewBox="0 0 635 415" aria-hidden="true"><path class="lw" fill="#A82680" d="M0 85H142Q190 88 202 138L262 405H198Z"/><path class="rw" fill="#A82680" d="M635 85H493Q445 88 433 138L373 405H437Z"/><path class="nb" fill="#C9A248" d="M317 2L418 90L338 410H296L216 90Z"/><circle class="dot" cx="317" cy="215" r="23" fill="#fff"/><rect class="dot" x="311" y="215" width="12" height="195" fill="#fff"/></svg>'''
 LOGO_W=LOGO.replace('#A82680','#fff').replace('#C9A248','#C9A248')
 SECS={"About":[("about","About BCRP"),("about-bcrec-society","About BCREC Society"),("vision-mission-quality","Vision, Mission & Quality Policy"),("pledge","Pledge"),("desk-general-secretary","From the Desk of General Secretary"),("desk-principal","From the Desk of Principal")],
@@ -86,5 +91,7 @@ P["placement-status"]=("Placement Status","Placement status",inner("Placement","
 for slug,title in [("scholarship","Scholarship"),("achievements","Achievements")]:
     P[slug]=(title,title,phero(title,"Dr. B.C. Roy Polytechnic")+f'<section><div class="wrap" style="max-width:900px"><div class="box art">{C.get(slug) or TODO%slug}</div></div></section>')
 for k,(t,d,b,*x) in [(k,v if len(v)==4 else v+(False,)) for k,v in P.items()]:
-    path="index.html" if k=="index" else f"pages/{k}.html"; open(path,"w").write(page(k,t,d,b,bool(x[0]) if x else False))
+    path = BASE_DIR / ("index.html" if k == "index" else f"pages/{k}.html")
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write(page(k, t, d, b, bool(x[0]) if x else False))
 print("built",len(P))
